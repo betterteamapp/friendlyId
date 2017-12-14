@@ -1,0 +1,22 @@
+name:                friendlyId
+version:             0.1.0.0
+synopsis:            generate friendlier IDs
+description:         Please see README.md
+homepage:            http://github.com/betterteam/solo
+license:             AllRightsReserved
+license-file:        LICENSE
+author:              Mark Wotton
+maintainer:          mwotton@gmail.com
+copyright:           AllRightsReserved
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , file-embed
+                     , QuickCheck
+                     , text
+  exposed-modules:     Text.FriendlyId

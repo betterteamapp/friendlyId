@@ -1,0 +1,19 @@
+name: friendlyId
+version: '0.1.0.0'
+synopsis: generate friendlier IDs
+description: Please see README.md
+category: Web
+author: Mark Wotton
+maintainer: mwotton@gmail.com
+copyright: AllRightsReserved
+license: AllRightsReserved
+homepage: http://github.com/betterteam/solo
+dependencies:
+- base >=4.7 && <5
+- file-embed
+- QuickCheck
+- text
+library:
+  source-dirs: src
+  exposed-modules:
+  - Text.FriendlyId
